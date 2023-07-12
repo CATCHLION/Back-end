@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Login Form</title>
+</head>
+<body>
+
+<form class="form-login" action = "/mbti" method = "post">
+  <input type = "text" class="input" name = "mbtiw" placeholder="mbti" required>
+  <input type = "text" class="input" name = "info" placeholder="info" required>
+  <button class="btn" type="submit"> MBTI 특징 추가  </button>
+</form>
+
+<button type="submit" onclick="location.href='home'">홈 페이지</button>
+
+<button type="submit" onclick="location.href='search'">저장 내용 조회</button>
+</body>
+</html>
